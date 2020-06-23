@@ -1,0 +1,38 @@
+*  {box-sizing: border-box;}
+body{ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+margin: 20px;}
+.header{
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 80px;
+}
+.navbar{
+    background-color: aqua;
+    overflow: hidden;
+}
+.navbar a{
+    text-align:center;
+    font-size: medium;
+    padding: 30px;
+    color: beige;
+}
+.navbar a:hover {background-color: blue;
+color: crimson;
+}
+.row {display: flex;
+flex-wrap: wrap;}
+.main {
+flex:50%;
+background-color: white;
+color: whitesmoke;
+}
+.right {
+    flex: 30%;
+    background-color: yellow;
+    padding: 10px;
+}
+:left { flex:20%; background-color: violet;
+    color: wheat;
+}
